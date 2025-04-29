@@ -1,0 +1,6 @@
+# Ignore local files that should not be part of Terraform module packaging
+*.md
+*.txt
+*.gitignore
+*.terraformignore
+*.DS_Store

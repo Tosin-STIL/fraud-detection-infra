@@ -1,0 +1,27 @@
+# Local .terraform directories
+.terraform/
+
+# Terraform plan output
+*.tfplan
+
+# Terraform state files (DO NOT commit state to Git!)
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive variable files (if you ever have them)
+*.auto.tfvars
+
+# AWS credentials (if mistakenly generated)
+*.pem
+*.key
